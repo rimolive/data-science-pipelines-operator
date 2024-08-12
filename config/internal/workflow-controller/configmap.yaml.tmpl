@@ -36,5 +36,3 @@ data:
       secretKeySecret:
         name: "{{.ObjectStorageConnection.CredentialsSecret.SecretName}}"
         key: "{{.ObjectStorageConnection.CredentialsSecret.SecretKey}}"
-  executor: |
-    # imagePullPolicy: default - https://kubernetes.io/docs/concepts/containers/images/#imagepullpolicy-defaulting  # TODO
