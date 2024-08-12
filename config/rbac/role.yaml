@@ -42,6 +42,13 @@ rules:
 - apiGroups:
   - argoproj.io
   resources:
+  - workflowartifactgctasks
+  verbs:
+  - create
+  - patch
+- apiGroups:
+  - argoproj.io
+  resources:
   - workflows
   verbs:
   - '*'
